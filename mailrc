@@ -1,0 +1,10 @@
+set nss-config-dir=/etc/pki/nssdb/
+set smtp-use-starttls
+set ssl-verify=ignore
+set smtp-auth=login
+set smtp=smtp://mail.itu.edu.tr:587
+set from="EMAIL@uhem.itu.edu.tr"
+set smtp-auth-user=EMAILUSER@itu.edu.tr
+set smtp-auth-password=123456
+set ssl-verify=ignore
+set sendcharsets=iso-8859-1,utf-8
