@@ -10,7 +10,7 @@ Put **slurmmail.sh** in to the path defined in **MailProg**. Don't forget to giv
 
 To reseting the numbers of the email sended, add a rm command for **MAIL_COUNTER_DIR** to **/etc/crontab** file:
 ```
-0 0 * * 0 root \rm /okyanus/SLURM/slurmmail-counter/*.txt
+0 0 * * * root \rm /okyanus/SLURM/slurmmail-counter/*.txt
 ```
 
 Copy **mailrc** file to slurm home directory (/var/lib/slurm) and rename to **.mailrc** and ofcourse, change .mailrc file according to your mail server.
