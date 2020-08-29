@@ -1,4 +1,7 @@
 #!/bin/bash
+# Slurmmail.sh --- a mailler script for slurm
+# https://github.com/mercanca/slurmmail
+
 # $2 == Job Info
 # $3 == Email Addres == $last
 
