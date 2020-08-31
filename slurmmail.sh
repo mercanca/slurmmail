@@ -34,7 +34,7 @@ else
                 fi
                 ((SENDED++))
                 echo "$SENDED" >"$MAIL_COUNTER_DIR/${ADRE}.txt"
-                if  [ "$SENDED" -lt "$MAX_MAIL" ]
+                if  [ "$SENDED" -le "$MAX_MAIL" ]
                 then
 			MYJOBINFO="$2"
 			FRONTPART="${MYJOBINFO/Slurm Job_id=/}"
